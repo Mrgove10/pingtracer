@@ -21,6 +21,7 @@ jobs:
       - name: Install .NET Framework 4.6.2
         run: |
           choco install netfx-4.6.2-devpack
+          choco install visualstudio2019buildtools
 
       # Restore dependencies for .NET Framework
       - name: Restore NuGet packages
